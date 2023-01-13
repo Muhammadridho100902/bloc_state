@@ -7,13 +7,14 @@ class DetailScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print(e.first_name);
     return Scaffold(
       body: Expanded(
         child: Column(
           children: [
-            Text(e.first_name),
-            Text(e.last_name),
-            Text(e.email),
+            // Text(e.first_name),
+            // Text(e.last_name),
+            // Text(e.email),
           ],
         ),
       ),
